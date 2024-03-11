@@ -57,7 +57,7 @@ public class TestWorld {
         int dx = MIN_DELTA - random.nextInt(MAX_DELTA - MIN_DELTA + 1);
         int dy = MIN_DELTA - random.nextInt(MAX_DELTA - MIN_DELTA + 1);
         ball.setDX(dx);
-        ball.setDY(dy);
+        ball.setDY(-dy);
         world.add(ball);
         // 플레이볼 끝
 
